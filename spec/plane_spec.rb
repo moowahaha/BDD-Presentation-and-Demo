@@ -1,7 +1,7 @@
 require "spec"
 require File.join(File.dirname(__FILE__), '..', 'lib', 'plane')
 
-context Plane do
+describe Plane do
   before do
     @plane = Plane.new
   end
